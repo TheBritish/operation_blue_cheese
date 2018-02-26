@@ -1,0 +1,58 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+war_with_mon = {
+	enable = {
+		tag = KUK
+		country_exists = MON
+	}
+	abort = {
+		NOT = { country_exists = MON }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "MON"
+		value = 200
+	}
+}
+war_with_ser = {
+	enable = {
+		tag = KUK
+		country_exists = SER
+	}
+	abort = {
+		NOT = { country_exists = SER }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "SER"
+		value = 200
+	}
+}
+war_with_rom = {
+	enable = {
+		tag = KUK
+		country_exists = ROM
+	}
+	abort = {
+		NOT = { country_exists = ROM }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ROM"
+		value = 200
+	}
+}
+

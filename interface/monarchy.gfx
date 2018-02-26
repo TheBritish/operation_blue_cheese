@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_speechASH"
+		texturefile = "gfx/event_pictures/news_event_speechASH.dds"
+	}
+#	spriteType = {
+#		name = "GFX_autonomy_princely_icon"
+#		textureFile = "gfx/interface/autonomy/autonomy_princely_icon.dds"
+#	}
+}

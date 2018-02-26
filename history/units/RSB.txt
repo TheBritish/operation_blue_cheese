@@ -1,0 +1,175 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "The People's Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "People's Guard"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"  		# 1st Cavalry Division only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "Workers Militia"  		# used for island defense (older equipment, lower experience)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Revolutionary Red Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = 	{
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+###### OOB ######
+units = {
+	### 1st Army -- note: Armies only paper organizations in 1936 ###
+	# I Army Corps #
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {
+		name = "Workers Militia"
+		location = 6710
+		division_template = "Workers Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

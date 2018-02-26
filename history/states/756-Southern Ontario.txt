@@ -1,0 +1,20 @@
+state={
+	id=756
+	name="STATE_756"
+	provinces={
+		779 3640 6607 6610 6662 6676 9585 9634 11602 11728
+	}
+
+	history={
+		owner = SE1
+		add_core_of = CAN
+		add_core_of = SE1
+		buildings = {
+			infrastructure = 7
+			arms_factory = 4
+		}
+	}
+	manpower=882414
+	state_category = town
+	buildings_max_level_factor=1.000
+}

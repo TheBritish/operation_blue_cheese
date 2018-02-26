@@ -1,0 +1,18 @@
+add_namespace = sea
+
+news_event = {
+	id = sea.1
+	title = sea.1.t
+	desc = {
+		text = sea.1.d
+	}
+	picture = GFX_news_event_speechASH
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = sea.1.a
+	}
+}

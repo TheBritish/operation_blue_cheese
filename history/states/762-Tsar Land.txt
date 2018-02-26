@@ -1,0 +1,22 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		4823 7693 12590 12737 13227 13230 13232 13233
+	}
+	resources={
+	}
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 2
+		}
+	}
+	state_category = large_city
+	manpower=62052
+	buildings_max_level_factor=4.000
+}

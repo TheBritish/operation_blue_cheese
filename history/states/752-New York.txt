@@ -1,0 +1,21 @@
+state={
+	id=752
+	name="STATE_752"
+	provinces={
+		734 3702 3733 3747 6707 9664 11650 11654 11680
+	}
+
+	history={
+		owner = SE2
+		add_core_of = USA
+		add_core_of = SE2
+		add_core_of = RSB
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+		}
+	}
+	manpower=2455739
+	state_category = town
+	buildings_max_level_factor=1.000
+}

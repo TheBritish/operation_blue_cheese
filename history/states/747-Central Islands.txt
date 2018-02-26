@@ -1,0 +1,23 @@
+state={
+	id=747
+	name="STATE_747"
+	state_category = town
+
+	history={
+		owner = SEA
+		buildings = {
+			infrastructure = 6
+			dockyard = 3
+			13205 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		13204 13205 13207
+	}
+	manpower=435266
+	buildings_max_level_factor=1.000
+}

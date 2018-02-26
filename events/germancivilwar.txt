@@ -1,0 +1,46 @@
+add_namespace = gercivilwar
+country_event = {
+	id = gercivilwar.1
+	title = gercivilwar.1.t
+	desc = gercivilwar.1.d
+
+	trigger = {
+		tag = SOV
+		NOT = { has_global_flag = funded_gercivilwar }
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = { # Push back
+		name = gercivilwar.1.a
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+			GER = { country_event = gercivilwar.2 }
+			GER = { add_popularity = { ideology = communism popularity = 0.5 } }
+			set_global_flag = funded_gercivilwar
+		}
+	}
+	option = { # Yield
+		name = gercivilwar.1.b
+		ai_chance = { factor = 50 }
+		set_global_flag = funded_gercivilwar
+	}
+}
+
+country_event = {
+	id = gercivilwar.2
+	title = gercivilwar.2.t
+	desc = gercivilwar.2.d
+
+	is_triggered_only = yes
+
+	option = { # Push back
+		name = gercivilwar.2.a
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+			start_civil_war = { ideology = communism size = 0.5 }
+		}
+	}
+}

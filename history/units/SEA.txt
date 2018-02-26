@@ -1,0 +1,238 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Cavalry Division"  		# 1st Cavalry Division only
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
+		engineer = { x = 0 y = 1 }   # US Eng Bn
+	}
+}
+division_template = {
+	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+###### OOB ######
+units = {
+	### 1st Army
+	# I Army Corps #
+	division= {
+		name = "Imperial Guard I"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+	division= {
+		name = "Imperial Guard II"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+	division= {
+		name = "Imperial Guard III"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+	division= {
+		name = "Imperial Guard IV"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+	division= {
+		name = "Imperial Guard V"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+	division= {
+		name = "Imperial Guard VI"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+	division= {
+		name = "Imperial Guard VII"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+	division= {
+		name = "Imperial Guard VIII"
+		location = 13209
+		division_template = "Infantry Division"
+		start_experience_factor = 5
+		start_equipment_factor = 1
+
+	}
+
+
+navy = {
+	name = "Imperial Atlantic Defence Fleet"
+	base = 13209
+	location = 13209 # San Diego
+	ship = { name = "KSN Ashcroft" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SEA version_name = "HRH Alexander Class" } } }
+	ship = { name = "KSN Fellbëck" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SEA version_name = "New World Class" } } }
+	ship = { name = "KSN A.R.M" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SEA version_name = "New World Class" } } }
+	ship = { name = "KSN Boston" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SEA version_name = "HRH Alexander Class" } } }
+	ship = { name = "KSN Kalis" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SEA version_name = "HRH Alexander Class" } } }
+	ship = { name = "KSN Alexander" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SEA version_name = "HRH Alexander Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+	ship = { name = "KSN Destroyer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Royal Class" } } }
+
+}
+}

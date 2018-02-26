@@ -1,0 +1,29 @@
+spriteTypes = {
+
+	### UNIQUE national focus icons
+
+	spriteType = {
+		name = "GFX_idea_tungsram"
+		texturefile = "gfx/interface/ideas/idea_tungsram.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_graff"
+		texturefile = "gfx/interface/ideas/idea_graff.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_charles_1"
+		texturefile = "gfx/interface/ideas/idea_charles_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_danubius"
+		texturefile = "gfx/interface/ideas/idea_danubius.dds"
+	}
+	#game menu
+	spriteType = {
+		name = "GFX_frontend_austria_hungary"
+		texturefile = "gfx/interface/austria_hungary.dds"
+	}
+
+}

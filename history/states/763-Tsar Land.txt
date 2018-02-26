@@ -1,0 +1,23 @@
+state={
+	id=763
+	name="STATE_763"
+	provinces={
+		1774 7808 7870 10563 13224 13226 13228 13229 13231
+	}
+	resources={
+
+	}
+
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 2
+		}
+	}
+	state_category = large_city
+	manpower=125375
+	buildings_max_level_factor=4.000
+}

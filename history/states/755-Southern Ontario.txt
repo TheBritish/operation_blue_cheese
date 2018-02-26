@@ -1,0 +1,21 @@
+
+state={
+	id=755
+	name="STATE_755"
+	provinces={
+		605 3605 3608 3661 6797 9580 9583 11567 11569 11585
+	}
+
+	history={
+		owner = SE1
+		add_core_of = CAN
+		add_core_of = SE1
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+		}
+	}
+	manpower=1003953
+	state_category = town
+	buildings_max_level_factor=1.000
+}

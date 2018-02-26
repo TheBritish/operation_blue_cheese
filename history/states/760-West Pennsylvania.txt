@@ -1,0 +1,19 @@
+state={
+	id=760
+	name="STATE_760"
+
+	history={
+		owner = RSB
+		add_core_of = USA
+		add_core_of = RSB
+		buildings = {
+			infrastructure = 8
+		}
+	}
+
+	provinces={
+		880 3687 3802 6705 6899 9662 9789 11648 11789 11800
+	}
+	manpower=1353963
+	buildings_max_level_factor=1.000
+}

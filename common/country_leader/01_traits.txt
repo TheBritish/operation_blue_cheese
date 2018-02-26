@@ -1,0 +1,27 @@
+leader_traits = {
+
+	dislikes_mnt= {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "MNT"
+			value = 200
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dislikes_ser = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "SER"
+			value = 200
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,67 @@
+add_namespace = slave
+country_event = {
+	id = slave.1
+	title = slave.1.t
+	desc = slave.1.d
+
+	trigger = {
+		date > 1937.2.1
+		tag = ENG
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 100
+	}
+
+	option = { # Push back
+		name = slave.1.a
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+		declare_war_on = {
+				type = puppet_wargoal_focus
+				target = IRE
+			}
+		}
+	}
+}
+
+country_event = {
+	id = slave.2
+	title = slave.2.t
+	desc = slave.2.d
+
+	trigger = {
+		tag = ENG
+		IRE = { is_puppet_of = ENG }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = { # Push back
+		name = slave.2.a
+		ai_chance = { factor = 50 }
+		hidden_effect = {
+		IRE = {
+		set_cosmetic_tag = SLAVE_IRE
+		add_popularity = { ideology = monarchism popularity = 1 }
+				set_politics = {
+						ruling_party = monarchism elections_allowed = no
+				}
+				create_country_leader = {
+						name = "James Hamilton, 3rd Duke of Abercorn"
+						desc = ""
+						picture = "James_Hamilton.dds"
+						expire = "1965.1.1"
+						ideology = absolutism
+						traits = {}
+				}
+			}
+		}
+	}
+}

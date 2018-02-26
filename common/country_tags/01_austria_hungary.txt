@@ -1,0 +1,3 @@
+KUK	= "countries/Austria Hungary.txt"
+MNT = "countries/Montenegro.txt"
+BOS = "countries/Bosnia.txt"

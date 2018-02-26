@@ -1,0 +1,27 @@
+ideas = {
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+		fanatic_isonationalist = {
+
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			removal_cost = -1
+
+			modifier = {
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -100
+				foreign_subversive_activites = -0.75
+				neutrality_drift = 0.05
+			}
+		}
+	}
+}

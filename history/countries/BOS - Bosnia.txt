@@ -1,0 +1,57 @@
+capital = 104
+
+oob = "BOS"
+set_technology = {
+	infantry_weapons = 2
+	tech_support = 1
+	tech_recon = 1
+}
+set_research_slots = 2
+set_national_unity = 0.70
+
+set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 80
+		}
+
+		fascism = {
+			popularity = 10
+		}
+
+		communism = {
+			popularity = 10
+		}
+
+		neutrality = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 5
+
+
+ create_country_leader = {
+ 	name = "Mak Dizdar"
+	desc = "POLITICS_MAK_DIZDAR_DESC"
+	picture = "Bosnia_Leader.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+
+	}
+ }
+
+ create_field_marshal = {
+	name = "Elez Dervisevic"
+	picture = "Portrait_Elez_Dervisevic_result.dds"
+	skill = 3
+
+ }

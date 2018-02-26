@@ -1,0 +1,43 @@
+division_template = {
+	name = "Pjesadiska divizija"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+    infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+    infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		}
+}
+
+# Bosnia
+units = {
+division= {
+		name = "Pjesadiska divizija"
+		location = 11899
+		division_template = "Pjesadiska divizija"
+		start_experience_factor = 0.3
+	}
+division= {
+		name = "Pjesadiska divizija"
+		location = 11899
+		division_template = "Pjesadiska divizija"
+		start_experience_factor = 0.3
+	}
+division= {
+		name = "Pjesadiska divizija"
+		location = 11899
+		division_template = "Pjesadiska divizija"
+		start_experience_factor = 0.3
+	}
+division= {
+		name = "Pjesadiska divizija"
+		location = 11899
+		division_template = "Pjesadiska divizija"
+		start_experience_factor = 0.3
+	}
+}
