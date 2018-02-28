@@ -18,7 +18,7 @@ war_with_mon = {
 	abort = {
 		NOT = { country_exists = MON }
 	}
-	
+
 	ai_strategy = {
 		type = antagonize
 		id = "MON"
@@ -33,7 +33,7 @@ war_with_ser = {
 	abort = {
 		NOT = { country_exists = SER }
 	}
-	
+
 	ai_strategy = {
 		type = antagonize
 		id = "SER"
@@ -48,11 +48,10 @@ war_with_rom = {
 	abort = {
 		NOT = { country_exists = ROM }
 	}
-	
+
 	ai_strategy = {
 		type = antagonize
 		id = "ROM"
 		value = 200
 	}
 }
-
