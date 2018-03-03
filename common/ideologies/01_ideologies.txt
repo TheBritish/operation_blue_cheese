@@ -1,10 +1,10 @@
 ideologies = {
 
-	monarchism = {
+	monarchism = { #ideology tag
 
 		types = {
 
-			absolutism = {
+			absolutism = { #leader ideology type
 			}
 		}
 
