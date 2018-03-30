@@ -1,0 +1,23 @@
+state={
+	id=768
+	name="STATE_768"
+	manpower = 475020
+
+	state_category = rural
+
+	history={
+		owner = WIS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		add_core_of = WIS
+		add_core_of = RSB
+
+	}
+
+	provinces={
+		709 751 4854 5205 10599
+	}
+	buildings_max_level_factor=1.000
+}

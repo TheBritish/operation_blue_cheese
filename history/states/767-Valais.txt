@@ -1,9 +1,30 @@
 state={
 	id=767
 	name="STATE_767"
-	provinces={
-		13232 
+
+	state_category = megalopolis
+
+	history={
+		owner = SEA
+		buildings = {
+			infrastructure = 10
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 10
+			air_base = 10
+			13232 = {
+				naval_base = 10
+			}
+		add_core_of = SEA
+		victory_points = {
+			13232 10
+		}
+
 	}
-	manpower=0
+	}
+	provinces={
+		13232
+	}
+	manpower=1400000
 	buildings_max_level_factor=1.000
 }

@@ -1,8 +1,26 @@
 state={
 	id=764
 	name="STATE_764"
+
+	state_category = megalopolis
+
+	history={
+		owner = SEA
+		buildings = {
+			infrastructure = 10
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 6
+		}
+		add_core_of = SEA
+		victory_points = {
+			13221 10
+		}
+
+	}
+
 	provinces={
-		13219 13220 13221 13222 13223 
+		13219 13220 13221 13222 13223
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
