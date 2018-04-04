@@ -1,0 +1,73 @@
+﻿division_template = {
+	name = "Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Militia"
+		location = 13206
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division = {
+		name = "2nd Militia"
+		location = 13205
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	navy = {
+		name = "1st Patrol Group"
+		base = 13206
+		location = 13206
+		ship = { name = "Nea Elpida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALT } } }
+		ship = { name = "Propyrgio" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALT } } }
+		ship = { name = "Ypostiriktis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALT } } }
+		ship = { name = "Ippokampos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALT } } }
+		ship = { name = "Plegma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ALT } } }
+	}
+
+}
+
+air_wings = {
+	743 = { 	
+		fighter_equipment_0 =  {
+			owner = "ALT" 
+			amount = 50
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ALT"
+		}
+		requested_factories = 1
+		progress = 0.86
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ALT"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+}

@@ -33,11 +33,8 @@ basic_carrier = 1
 transport = 1
 superior_firepower = 1
 base_strike = 1
-}
 
-add_ideas = {
-	seaworth_naval_company
-}
+
 
 if = {
 	limit = {
@@ -79,69 +76,64 @@ add_to_faction = SE4
 add_to_faction = SE5
 
 
-1936.1.1 = {
+add_political_power = 1198
 
-	add_political_power = 1198
+#generic focuses
+complete_national_focus = army_effort
+complete_national_focus = equipment_effort
+complete_national_focus = motorization_effort
+complete_national_focus = aviation_effort
+complete_national_focus = naval_effort
+complete_national_focus = flexible_navy
+complete_national_focus = industrial_effort
+complete_national_focus = construction_effort
+complete_national_focus = production_effort
 
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-
-	add_ideas = {
-		#laws
-		volunteer_only
-		low_economic_mobilisation
-	}
-
-	set_technology = {
-		fighter1 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-
-		#doctrines
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
-
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
+add_ideas = {
+	seaworth_naval_company
+	#laws
+	volunteer_only
+	low_economic_mobilisation
 }
+
+
+fighter1 = 1
+interwar_artillery = 1
+interwar_antitank = 1
+infantry_weapons2 = 1
+support_weapons = 1
+support_weapons2 = 1
+#doctrines
+#Air
+force_rotation = 1
+fighter_baiting = 1
+grand_battle_plan = 1
+trench_warfare = 1
+fleet_in_being = 1
+battlefleet_concentration = 1
+subsidiary_carrier_role = 1
+convoy_sailing = 1
+
+#electronics
+electronic_mechanical_engineering = 1
+radio = 1
+radio_detection = 1
+mechanical_computing = 1
+computing_machine = 1
+#industry
+basic_machine_tools = 1
+improved_machine_tools = 1
+advanced_machine_tools = 1
+synth_oil_experiments = 1
+oil_plant = 1
+improved_oil_plant = 1
+construction1 = 1
+construction2 = 1
+construction3 = 1
+dispersed_industry = 1
+dispersed_industry2 = 1
+dispersed_industry3 = 1
+
 
 set_politics = {
 
@@ -159,6 +151,8 @@ set_politics = {
 	election_frequency = 12
 	elections_allowed = no
 }
+
+set_stability = 1
 
 create_country_leader = {
 	name = "King Vincent Ashcroft I"

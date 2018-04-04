@@ -1,0 +1,983 @@
+ideas = {
+	
+	political_advisor = {
+		acheron_sarkis = {
+			
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { fortification_engineer }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		jaysen_lampros = {
+			
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { armaments_organizer }
+		}
+		
+		eupeithes_nicolas = {
+		
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		yorgos_stratos = {
+			
+			picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { war_industrialist }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		nike_thos = {
+			
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { communist_revolutionary }
+	
+			on_add = {
+				country_event = political.1
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0.5
+			}
+		}	
+			
+		plutus_tassis = {
+		
+			picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { democratic_reformer }
+	
+			on_add = {
+				country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0.85
+			}
+		}
+		
+		myron_saccas = {
+			
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { fascist_demagogue }
+	
+			on_add = {
+				country_event = political.7
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		cyrus_takes = {
+		
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+			available = {
+				NOT = { has_country_flag = flight_of_hess }
+			}
+			
+			traits = { silent_workhorse }
+		}
+		
+		trophonius_contos = {
+
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		iphitus_rodinos = {
+			
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { silent_workhorse }
+			
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		eurus_murgas = {
+			
+			picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { backroom_backstabber }
+
+			ai_will_do = {
+				factor = 0.25
+			}
+		}
+		
+		pyramus_scafidis = {
+			
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { smooth_talking_charmer }
+			
+			ai_will_do = {
+				factor = 0.15
+			}
+		}
+	}
+
+	
+	# TECHNOLOGY
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		reme = {
+		
+			picture = generic_tank_manufacturer_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { heavy_tank_manufacturer }
+
+		}
+		
+		valli = {
+		
+			picture = generic_tank_manufacturer_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rodinou = {
+		
+			picture = generic_tank_manufacturer_3
+
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { medium_tank_manufacturer }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		arsen = {
+
+			picture = generic_navy_bonus
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+		}
+		
+		klaasr = {
+
+			picture = generic_sea_focused_navy
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}	
+	}
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		acteon = {
+		
+			picture = generic_air_manufacturer_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		primos = { 
+		
+			picture = air_support_focus
+		
+			allowed = {
+				original_tag = ALT
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+
+		zane = {
+
+			picture = generic_air_research
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		omega = {
+
+			picture = generic_air_manufacturer_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		manou = {
+		
+			picture = generic_air_manufacturer_2
+
+			allowed = {
+				original_tag = ALT
+			}
+			
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+
+
+	}
+	
+	industrial_concern = {
+		
+		resource_committee = {
+		
+			picture = generic_exploit_mines
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.1
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		production_committee = {
+		
+			picture = generic_industrial_concern_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		electronics_committee = {
+		
+			picture = generic_electronics_concern_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}		
+	}
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		artillery_contract = {
+		
+			picture = generic_artillery_manufacturer_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+				# +10% arty/at/aa research speed
+			}
+		}
+		
+		small_arms_contract = {
+
+			picture = generic_infantry_equipment_manufacturer_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		motor_contract = {
+		
+			picture = generic_motorized_equipment_manufacturer_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+	
+	theorist = {
+		iphicrates_giannopoulos = {
+		
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				rocketry = 0.10
+			}
+			
+			traits = { rocket_scientist }
+		}
+		
+		cyrano_carrack = {
+
+			picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				original_tag = ALT
+			}
+		
+			research_bonus = {
+				nuclear = 0.10
+			}
+			
+			traits = { nuclear_scientist }
+		}
+		
+		aesculapius_fotos = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			
+			traits = { mass_assault_expert }
+		}
+		
+		alexandros_ganis = {
+
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.10
+			}
+			
+
+			traits = { mobile_warfare_expert }
+		}
+		
+		plato_golias = {
+
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_battlefield_support = 0.10
+			}
+			
+			traits = { close_air_support_proponent }
+		}
+		
+		darian_perros = {
+
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+		
+		pierro_rokos = {
+
+			picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { dive_bomber }
+		}
+		
+		timotheos_kanas = {
+			
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_trade_interdiction = 0.20
+			}
+			
+			traits = { submarine_specialist }
+		}
+		
+		thadeus_stamas = {
+			
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.07
+			}
+			
+			traits = { naval_theorist }
+		}
+	}	
+		
+	# MILITARY
+	army_chief = {
+
+		teodors_maheras = {
+
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { army_chief_organizational_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		jerome_grivas  = {
+
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = ALT
+			}
+						
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		philip_panos = {
+
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+						
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		enceladus_piteras = {
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	air_chief = {
+		
+		diokles_sicas = {
+
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+						
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		
+		tydeus_stathis = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+						
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		prokopios_constantinos = {
+		
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+						
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	navy_chief = { #CHIEF OF NAVY
+		
+		dorian_georgas = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+						
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+		
+		kadmus_vergas = {
+		
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+						
+			traits = { navy_chief_commerce_raiding_3 }
+			
+			ai_will_do = {
+				factor = 0.1
+			}
+		}
+	}
+
+	high_command = {
+
+		andreus_liakos = {
+		
+			picture = generic_army_europe_1
+
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		eustis_callas = {
+		
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { army_armored_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		theodrekr_karalis = {
+		
+			picture = generic_army_europe_3
+
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		
+		alexei_moros = {
+		
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		
+		gyes_theodoros = {
+
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		anstiss_mavros = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rasmus_gounaris = {
+
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { air_airborne_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+		pietro_lampros = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { navy_naval_air_defense_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		menoeceus_economides = {
+			
+			picture = generic_army_europe_4
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		 
+		jerome_speros = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = ALT
+			}
+			
+			traits = { navy_anti_submarine_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+
+
+
+}

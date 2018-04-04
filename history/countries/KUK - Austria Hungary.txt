@@ -47,7 +47,7 @@ add_ideas = {
 	charles_1
 }
 
-set_national_unity = 0.60
+set_stability = 0.60
 
 create_country_leader = {
 	name = "Kurt Schuschnigg"

@@ -1,0 +1,32 @@
+state={
+	id=744
+	name="STATE_744"
+	manpower=108229
+	
+	state_category = rural
+	
+	resources = {
+	steel=3
+	oil=1
+	rubber=1
+	aluminium=1
+	}
+	
+	history={
+		owner = ALT
+		add_core_of = ALT
+		victory_points = { 13205 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+			13205 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		13205
+	}
+}

@@ -28,6 +28,54 @@ ideologies = {
 			justify_war_goal_when_in_major_war_time = -0.80
 		}
 
+		can_be_boosted = no
+		can_collaborate = yes
+
 		ai_fascist = yes # uses the fascist AI behaviour
+	}
+
+	anarchy = { #ideology tag
+
+		types = {
+
+			anarcho_capitalism = { #leader ideology type
+			}
+			anarcho_communism = {
+			
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHISM_1"
+		}
+
+		color = { 255	222	173 }
+
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = no
+		}
+
+		modifiers = {
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 1
+			lend_lease_tension = 1
+			send_volunteers_tension = 1
+			guarantee_tension = 1
+			drift_defence_factor = -1
+		}
+
+		faction_modifiers = {
+		}
+
+		can_be_boosted = no
+		can_collaborate = no
+
+		ai_neutral = yes #
 	}
 }

@@ -37,7 +37,7 @@ set_politics = {
 
 set_convoys = 5
 
-
+set_stability = 0.75
  create_country_leader = {
  	name = "Mak Dizdar"
 	desc = "POLITICS_MAK_DIZDAR_DESC"

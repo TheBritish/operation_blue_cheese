@@ -1,0 +1,16 @@
+﻿ALT = {
+	male = {
+		names = {  Hesperos Dimitris Piero Anchises Antaeus Baste Vasyklo Timothy Anastasio Euryton Neleus 
+			Alix Tivadar Eustis Alexio Ignatius Nicholas Jayr Neleus Attis Damaris Triptolemus Agamemnon Coridan Basil
+		}
+	}
+	female = {
+		names = { Melita Alena Andromeda Leandra Electra }
+	}
+	surnames = { 
+		Sperou Logou Zurlou Priscos Hondros Velis Dellis Soulis Mangas Papas Xenos 
+		Anastas Thanos Sicas Chronis Zervos Panagos Petraccas Nanos Kozmas Matis Arvanitis 
+		Christopoulos Stathopoulos Athas Kotas Mellis 
+		}
+	callsigns = { "Phalanx" "Ballista" "Trebuchet" "Catapult" "Vulture" "Hoplite" "Marathon" "Athena" "Spartan" "Archimedes" "Broadsword" "Nero" }
+}

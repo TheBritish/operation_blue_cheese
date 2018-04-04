@@ -86,7 +86,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-
+set_stability = 0.75
 
 	create_country_leader = {
 		name = "Pierre Dupong"
