@@ -1,0 +1,797 @@
+technologies = {
+	##### ASW #####
+	basic_asw = {
+		destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		escort_destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		heavy_destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		light_cruiser = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		light_cruiser_aa = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		
+		path = {
+			leads_to_tech = improved_asw
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.8
+		start_year = 1938
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	improved_asw = {
+		destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		escort_destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		heavy_destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		light_cruiser = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		light_cruiser_aa = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		
+		path = {
+			leads_to_tech = advanced_asw
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.8
+		start_year = 1940
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	advanced_asw = {
+		destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		escort_destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		heavy_destroyer = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		light_cruiser = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		light_cruiser_aa = {
+			sub_detection = 0.1
+			sub_attack = 0.2
+		}
+		
+		research_cost = 0.8
+		start_year = 1942
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	##### ANTI-AIRCRAFT #####
+	basic_aa = {
+		destroyer = {
+			anti_air_attack = 0.2
+		}
+		escort_destroyer = {
+			anti_air_attack = 0.2
+		}
+		heavy_destroyer = {
+			anti_air_attack = 0.2
+		}
+		light_cruiser = {
+			anti_air_attack = 0.2
+		}
+		light_cruiser_aa = {
+			anti_air_attack = 0.2
+		}
+		heavy_cruiser  = {
+			anti_air_attack = 0.2
+		}
+		battle_cruiser = {
+			anti_air_attack = 0.2
+		}
+		battleship = {
+			anti_air_attack = 0.2
+		}
+		SH_battleship = {
+			anti_air_attack = 0.2
+		}
+		carrier = {
+			anti_air_attack = 0.2
+		}
+		light_carrier = {
+			anti_air_attack = 0.2
+		}
+		submarine  = {
+			anti_air_attack = 0.2
+		}
+		
+		path = {
+			leads_to_tech = improved_aa
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.75
+		start_year = 1936
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 6}
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 3 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	improved_aa = {
+		destroyer = {
+			anti_air_attack = 0.2
+		}
+		escort_destroyer = {
+			anti_air_attack = 0.2
+		}
+		heavy_destroyer = {
+			anti_air_attack = 0.2
+		}
+		light_cruiser = {
+			anti_air_attack = 0.2
+		}
+		light_cruiser_aa = {
+			anti_air_attack = 0.2
+		}
+		heavy_cruiser  = {
+			anti_air_attack = 0.2
+		}
+		battle_cruiser = {
+			anti_air_attack = 0.2
+		}
+		battleship = {
+			anti_air_attack = 0.2
+		}
+		SH_battleship = {
+			anti_air_attack = 0.2
+		}
+		carrier = {
+			anti_air_attack = 0.2
+		}
+		light_carrier = {
+			anti_air_attack = 0.2
+		}
+		submarine  = {
+			anti_air_attack = 0.2
+		}
+		
+		path = {
+			leads_to_tech = advanced_aa
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.75
+		start_year = 1940
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 3 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	advanced_aa = {
+		destroyer = {
+			anti_air_attack = 0.2
+		}
+		escort_destroyer = {
+			anti_air_attack = 0.2
+		}
+		heavy_destroyer = {
+			anti_air_attack = 0.2
+		}
+		light_cruiser = {
+			anti_air_attack = 0.2
+		}
+		light_cruiser_aa = {
+			anti_air_attack = 0.2
+		}
+		heavy_cruiser  = {
+			anti_air_attack = 0.2
+		}
+		battle_cruiser = {
+			anti_air_attack = 0.2
+		}
+		battleship = {
+			anti_air_attack = 0.2
+		}
+		SH_battleship = {
+			anti_air_attack = 0.2
+		}
+		carrier = {
+			anti_air_attack = 0.2
+		}
+		light_carrier = {
+			anti_air_attack = 0.2
+		}
+		submarine  = {
+			anti_air_attack = 0.2
+		}
+		
+		research_cost = 0.75
+		start_year = 1942
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 3 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	##### TORPEDOES #####
+	basic_torpedo = {
+		destroyer = {
+			torpedo_attack = 0.2
+		}
+		escort_destroyer = {
+			torpedo_attack = 0.2
+		}
+		heavy_destroyer = {
+			torpedo_attack = 0.2
+		}
+		light_cruiser = {
+			torpedo_attack = 0.2
+		}
+		light_cruiser_aa = {
+			torpedo_attack = 0.2
+		}
+		submarine  = {
+			torpedo_attack = 0.2
+		}
+		
+		path = {
+			leads_to_tech = improved_torpedo
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1918
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 4 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 2 tag = USA }
+		}
+	}
+
+	improved_torpedo = {
+		destroyer = {
+			torpedo_attack = 0.2
+		}
+		escort_destroyer = {
+			torpedo_attack = 0.2
+		}
+		heavy_destroyer = {
+			torpedo_attack = 0.2
+		}
+		light_cruiser = {
+			torpedo_attack = 0.2
+		}
+		light_cruiser_aa = {
+			torpedo_attack = 0.2
+		}
+		submarine  = {
+			torpedo_attack = 0.2
+		}
+		
+		path = {
+			leads_to_tech = advanced_torpedo
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.7
+		start_year = 1938
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 4 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 2 tag = USA }
+		}
+	}
+
+	advanced_torpedo = {
+		destroyer = {
+			torpedo_attack = 0.2
+		}
+		escort_destroyer = {
+			torpedo_attack = 0.2
+		}
+		heavy_destroyer = {
+			torpedo_attack = 0.2
+		}
+		light_cruiser = {
+			torpedo_attack = 0.2
+		}
+		light_cruiser_aa = {
+			torpedo_attack = 0.2
+		}
+		submarine  = {
+			torpedo_attack = 0.2
+		}
+		
+		research_cost = 0.7
+		start_year = 1943
+		
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 tag = ENG }
+			modifier = { factor = 2 tag = FRA }
+			modifier = { factor = 4 tag = GER }
+			modifier = { factor = 2 tag = ITA }
+			modifier = { factor = 2 tag = JAP }
+			modifier = { factor = 2 tag = USA }
+		}
+	}
+
+	##### RADAR & SONAR #####
+	early_radar = {
+		destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		escort_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser_aa = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_cruiser  = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battle_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		SH_battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		submarine  = {
+			surface_detection = 0.3
+			sub_detection = 0.2
+		}
+		
+		path = {
+			leads_to_tech = basic_radar 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.1
+		start_year = 1939
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			naval_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	basic_radar = {
+		destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		escort_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser_aa = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_cruiser  = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battle_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		SH_battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		submarine  = {
+			surface_detection = 0.3
+			sub_detection = 0.2
+		}
+		
+		path = {
+			leads_to_tech = improved_radar 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.1
+		start_year = 1940
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 12}
+		}
+		
+		categories = {
+			naval_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	improved_radar = {
+		destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		escort_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser_aa = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_cruiser  = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battle_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		SH_battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		submarine  = {
+			surface_detection = 0.3
+			sub_detection = 0.2
+		}
+		
+		path = {
+			leads_to_tech = advanced_radar 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.1
+		start_year = 1942
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			naval_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	advanced_radar = {
+		destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		escort_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_destroyer = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_cruiser_aa = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		heavy_cruiser  = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battle_cruiser = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		SH_battleship = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		light_carrier = {
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		submarine  = {
+			surface_detection = 0.3
+			sub_detection = 0.2
+		}
+		
+		research_cost = 1.1
+		start_year = 1944
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		categories = {
+			naval_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+}

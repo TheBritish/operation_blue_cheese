@@ -12,6 +12,7 @@ state={
 			industrial_complex = 5
 		}
 		add_core_of = RSB
+		add_core_of = USA
 		victory_points = {
 			1595 5
 		}

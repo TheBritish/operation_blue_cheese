@@ -1,0 +1,548 @@
+technologies = {
+	##### GROUND SUPPORT WEAPONS #####
+	basic_cannon = {
+		category_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_cv_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_jet_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_cas = {
+			air_ground_attack = 0.2
+		}
+		category_cv_cas = {
+			air_ground_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = improved_cannon
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1938
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	improved_cannon = {
+		category_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_cv_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_jet_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_cas = {
+			air_ground_attack = 0.2
+		}
+		category_cv_cas = {
+			air_ground_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = air_to_ground_rockets
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1941
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	air_to_ground_rockets = {
+		category_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_cv_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_jet_fighter = {
+			air_ground_attack = 0.2
+		}
+		category_cas = {
+			air_ground_attack = 0.2
+		}
+		category_cv_cas = {
+			air_ground_attack = 0.1
+		}
+		
+		research_cost = 0.5
+		start_year = 1943
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+
+
+	##### DROP TANKS #####
+	basic_drop_tanks = {
+		category_fighter = {
+			air_range = 0.2
+		}
+		category_cv_fighter = {
+			air_range = 0.15
+		}
+		category_jet_fighter = {
+			air_range = 0.1
+		}
+		
+		path = {
+			leads_to_tech = improved_drop_tanks
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1941
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	improved_drop_tanks = {
+		category_fighter = {
+			air_range = 0.2
+		}
+		category_cv_fighter = {
+			air_range = 0.15
+		}
+		category_jet_fighter = {
+			air_range = 0.1
+		}
+		
+		path = {
+			leads_to_tech = advanced_drop_tanks
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1943
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	advanced_drop_tanks = {
+		category_fighter = {
+			air_range = 0.2
+		}
+		category_cv_fighter = {
+			air_range = 0.15
+		}
+		category_jet_fighter = {
+			air_range = 0.1
+		}
+		
+		research_cost = 0.5
+		start_year = 1945
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 24 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+
+	##### BOMBS #####
+	early_bombs = {
+		category_medium_bomber = {
+			air_ground_attack = 0.1
+			air_bombing = 0.15
+		}
+		category_heavy_bomber = {
+			air_bombing = 0.2
+		}
+		
+		path = {
+			leads_to_tech = basic_bombs
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1935
+		
+		folder = {
+			name = air_bomber_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	basic_bombs = {
+		category_medium_bomber = {
+			air_ground_attack = 0.1
+			air_bombing = 0.15
+		}
+		category_heavy_bomber = {
+			air_bombing = 0.2
+		}
+		
+		path = {
+			leads_to_tech = improved_bombs
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1939
+		
+		folder = {
+			name = air_bomber_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	improved_bombs = {
+		category_medium_bomber = {
+			air_ground_attack = 0.1
+			air_bombing = 0.15
+		}
+		category_heavy_bomber = {
+			air_bombing = 0.2
+		}
+		
+		path = {
+			leads_to_tech = advanced_bombs
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.5
+		start_year = 1941
+		
+		folder = {
+			name = air_bomber_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	advanced_bombs = {
+		category_medium_bomber = {
+			air_ground_attack = 0.1
+			air_bombing = 0.15
+		}
+		category_heavy_bomber = {
+			air_bombing = 0.2
+		}
+		
+		research_cost = 0.5
+		start_year = 1944
+		
+		folder = {
+			name = air_bomber_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+
+	##### AIR SEARCH RADIOS & RADAR #####
+	air_radios = {
+		air_superiority_detect_factor = 0.1
+		air_interception_detect_factor = 0.1
+		
+		path = {
+			leads_to_tech = basic_air_search 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.7
+		start_year = 1937
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			air_equipment
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+	basic_air_search = {
+		air_superiority_detect_factor = 0.1
+		air_interception_detect_factor = 0.1
+		
+		path = {
+			leads_to_tech = improved_air_search 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.7
+		start_year = 1940
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			air_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+	improved_air_search = {
+		air_superiority_detect_factor = 0.1
+		air_interception_detect_factor = 0.1
+		
+		path = {
+			leads_to_tech = advanced_air_search 
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.7
+		start_year = 1942
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		categories = {
+			air_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+	advanced_air_search = {
+		air_superiority_detect_factor = 0.1
+		air_interception_detect_factor = 0.1
+		
+		research_cost = 0.7
+		start_year = 1944
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		categories = {
+			air_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+	##### AIR NAVIGATION EQUIPMENT #####
+	basic_air_navigation = {
+		strategic_bomb_visibility = -0.1			# Visibility reduction for day and night strategic bombing
+		army_bonus_air_superiority_factor = 0.1		# Increase in air superiority factor for all aircraft
+	
+		path = {
+			leads_to_tech = improved_air_navigation
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.7
+		start_year = 1939
+		
+		folder = {
+			name = air_bomber_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			air_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+	improved_air_navigation = {
+		strategic_bomb_visibility = -0.1		
+		army_bonus_air_superiority_factor = 0.1	
+	
+		path = {
+			leads_to_tech = advanced_air_navigation
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 0.7
+		start_year = 1942
+		
+		folder = {
+			name = air_bomber_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		categories = {
+			air_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+	advanced_air_navigation = {
+		strategic_bomb_visibility = -0.1	
+		army_bonus_air_superiority_factor = 0.1	
+	
+		research_cost = 0.7
+		start_year = 1944
+		
+		folder = {
+			name = air_bomber_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		categories = {
+			air_equipment
+			electronics
+			radar_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.5 is_major = no }
+			modifier = { factor = 3 tag = ENG }
+			modifier = { factor = 2 tag = GER }
+			modifier = { factor = 3 tag = USA }
+		}
+	}
+
+}

@@ -1,0 +1,944 @@
+equipments = {
+
+	### Destroyer Subunits ###
+	destroyer = {
+		year = 1922
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		
+		interface_category = interface_category_screen_ships
+		
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+	}
+
+	escort_destroyer = {
+		year = 1922
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		
+		interface_category = interface_category_screen_ships
+		
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+	}
+	
+	heavy_destroyer = {
+		year = 1922
+
+ 		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		
+		interface_category = interface_category_screen_ships
+		
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+	}
+
+	### Destroyers ###
+	destroyer_1 = {
+		year = 1922
+
+		archetype = destroyer
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 1.5
+		attack = 1
+		fire_range = 14
+		torpedo_attack = 2.5
+		sub_attack = 10
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 70
+		
+		surface_detection = 20
+		sub_detection = 50
+		surface_visibility = 10
+		naval_speed = 33
+		reliability = 0.80
+		
+		naval_range = 1500
+		
+		max_strength = 25		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 900
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 250
+	}
+	
+	destroyer_2 = {
+		year = 1926
+
+		archetype = destroyer
+		parent = destroyer_1
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 2
+		attack = 1.5
+		fire_range = 14
+		torpedo_attack = 3.33
+		sub_attack = 11
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 73
+		
+		surface_detection = 20
+		sub_detection = 50
+		surface_visibility = 10
+		naval_speed = 35
+		reliability = 0.82
+		
+		naval_range = 1600
+		
+		max_strength = 35		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 930
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 275
+	}
+
+	destroyer_3 = {
+		year = 1933
+
+		archetype = destroyer
+		parent = destroyer_2
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 2.5
+		attack = 2.5
+		fire_range = 15
+		torpedo_attack = 4.17
+		sub_attack = 12
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 76
+		
+		surface_detection = 25
+		sub_detection = 55
+		surface_visibility = 10
+		naval_speed = 36
+		reliability = 0.82
+		
+		naval_range = 1800
+		
+		max_strength = 40		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 960
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 300
+	}
+
+	destroyer_4 = {
+		year = 1936
+
+		archetype = destroyer
+		parent = destroyer_3
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 2.5
+		attack = 2.5
+		fire_range = 15
+		torpedo_attack = 4.29
+		sub_attack = 12.5
+		
+		anti_air_attack = 2
+		
+		armor_value = 0
+		evasion = 80
+		
+		surface_detection = 25
+		sub_detection = 60
+		surface_visibility = 10
+		naval_speed = 36
+		reliability = 0.85
+
+		naval_range = 1800
+		
+		max_strength = 40
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 990
+		resources = {
+			oil = 1
+			steel = 3
+		}		
+		manpower = 325
+	}
+	
+	destroyer_5 = {
+		year = 1938
+
+		archetype = destroyer
+		parent = destroyer_4
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 3.5
+		attack = 3
+		fire_range = 16
+		torpedo_attack = 4.29
+		sub_attack = 12.5
+		
+		anti_air_attack = 3.5
+		
+		armor_value = 0
+		evasion = 85
+		
+		surface_detection = 30
+		sub_detection = 63.64
+		surface_visibility = 10
+		naval_speed = 37
+		reliability = 0.87
+
+		naval_range = 2000
+		
+		max_strength = 45
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1035
+		resources = {
+			oil = 1
+			steel = 3
+		}		
+		manpower = 350
+	}
+
+	destroyer_6 = {
+		year = 1941
+
+		archetype = destroyer
+		parent = destroyer_5
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 4
+		attack = 3.5
+		fire_range = 16
+		torpedo_attack = 5
+		sub_attack = 12.5
+		
+		anti_air_attack = 4.5
+		
+		armor_value = 0
+		evasion = 90
+		
+		surface_detection = 32.14
+		sub_detection = 65.63
+		surface_visibility = 10
+		naval_speed = 38
+		reliability = 0.90
+
+		naval_range = 2000
+		
+		max_strength = 50
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1080
+		resources = {
+			oil = 2
+			steel = 3
+		}
+		manpower = 400
+	}
+	
+	destroyer_7 = {
+		year = 1944
+
+		archetype = destroyer
+		parent = destroyer_6
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 4.5
+		attack = 4
+		fire_range = 17
+		torpedo_attack = 5
+		sub_attack = 12.5
+		
+		anti_air_attack = 5.5
+		
+		armor_value = 0
+		evasion = 95
+		
+		surface_detection = 33.33
+		sub_detection = 66.67
+		surface_visibility = 10
+		naval_speed = 38
+		reliability = 0.92
+
+		naval_range = 2500
+		
+		max_strength = 60
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1200
+		resources = {
+			oil = 2
+			steel = 4
+			chromium = 1
+		}		
+		manpower = 500
+	}
+
+
+	### Escort Destroyers ###
+	escort_destroyer_1 = {
+		year = 1922
+
+		archetype = escort_destroyer
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 1.5
+		attack = 1
+		fire_range = 14
+		torpedo_attack = 1.67
+		sub_attack = 11
+		
+		anti_air_attack = 1
+		
+		armor_value = 0
+		evasion = 50
+		
+		surface_detection = 20
+		sub_detection = 50
+		surface_visibility = 10
+		naval_speed = 24
+		reliability = 0.80
+
+		naval_range = 1200
+		
+		max_strength = 15
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 650
+		resources = {
+			oil = 1
+			steel = 2
+		}		
+		manpower = 175
+	}
+	
+	escort_destroyer_2 = {
+		year = 1926
+
+		archetype = escort_destroyer
+		parent = escort_destroyer_1
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 2
+		attack = 1
+		fire_range = 14
+		torpedo_attack = 1.67
+		sub_attack = 12
+		
+		anti_air_attack = 1
+		
+		armor_value = 0
+		evasion = 53
+		
+		surface_detection = 20
+		sub_detection = 50
+		surface_visibility = 10
+		naval_speed = 26
+		reliability = 0.82
+
+		naval_range = 1400
+		
+		max_strength = 20
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 680
+		resources = {
+			oil = 1
+			steel = 2
+		}		
+		manpower = 200
+	}
+
+	escort_destroyer_3 = {
+		year = 1933
+
+		archetype = escort_destroyer
+		parent = escort_destroyer_2
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 2.5
+		attack = 1.5
+		fire_range = 15
+		torpedo_attack = 2.5
+		sub_attack = 13
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 56
+		
+		surface_detection = 25
+		sub_detection = 55
+		surface_visibility = 10
+		naval_speed = 28
+		reliability = 0.82
+
+		naval_range = 1600
+		
+		max_strength = 30
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 710
+		resources = {
+			oil = 1
+			steel = 2
+		}		
+		manpower = 225
+	}
+
+	escort_destroyer_4 = {
+		year = 1936
+
+		archetype = escort_destroyer
+		parent = escort_destroyer_3
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 2.5
+		attack = 2
+		fire_range = 15
+		torpedo_attack = 2.86
+		sub_attack = 14
+		
+		anti_air_attack = 2
+		
+		armor_value = 0
+		evasion = 60
+		
+		surface_detection = 25
+		sub_detection = 60
+		surface_visibility = 10
+		naval_speed = 28
+		reliability = 0.85
+
+		naval_range = 1600
+		
+		max_strength = 30
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 750
+		resources = {
+			oil = 1
+			steel = 3
+		}		
+		manpower = 250
+	}
+	
+	escort_destroyer_5 = {
+		year = 1938
+
+		archetype = escort_destroyer
+		parent = escort_destroyer_4
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 3.5
+		attack = 2
+		fire_range = 16
+		torpedo_attack = 2.86
+		sub_attack = 14.17
+		
+		anti_air_attack = 3
+		
+		armor_value = 0
+		evasion = 65
+		
+		surface_detection = 30
+		sub_detection = 63.64
+		surface_visibility = 10
+		naval_speed = 30
+		reliability = 0.87
+
+		naval_range = 1800
+		
+		max_strength = 35
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 790
+		resources = {
+			oil = 1
+			steel = 3
+		}		
+		manpower = 275
+	}
+
+	escort_destroyer_6 = {
+		year = 1941
+
+		archetype = escort_destroyer
+		parent = escort_destroyer_5
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 4
+		attack = 2.5
+		fire_range = 16
+		torpedo_attack = 3.57
+		sub_attack = 14.29
+		
+		anti_air_attack = 4
+		
+		armor_value = 0
+		evasion = 70
+		
+		surface_detection = 32.14
+		sub_detection = 65.63
+		surface_visibility = 10
+		naval_speed = 30
+		reliability = 0.90
+
+		naval_range = 2000
+		
+		max_strength = 40
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 840
+		resources = {
+			oil = 2
+			steel = 3
+		}
+		manpower = 325
+	}
+	
+	escort_destroyer_7 = {
+		year = 1944
+
+		archetype = escort_destroyer
+		parent = escort_destroyer_6
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 4.5
+		attack = 3
+		fire_range = 17
+		torpedo_attack = 3.75
+		sub_attack = 14.38
+		
+		anti_air_attack = 5
+		
+		armor_value = 0
+		evasion = 75
+		
+		surface_detection = 33.33
+		sub_detection = 66.67
+		surface_visibility = 10
+		naval_speed = 33
+		reliability = 0.92
+
+		naval_range = 2400
+		
+		max_strength = 45
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 880
+		resources = {
+			oil = 2
+			steel = 4
+			chromium = 1
+		}		
+		manpower = 375
+	}
+
+
+	### Heavy Destroyers ###
+	heavy_destroyer_1 = {
+		year = 1922
+
+		archetype = heavy_destroyer
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 1.5
+		attack = 2
+		fire_range = 14
+		torpedo_attack = 1.67
+		sub_attack = 10
+		
+		anti_air_attack = 2
+		
+		armor_value = 0
+		evasion = 65
+		
+		surface_detection = 20
+		sub_detection = 50
+		surface_visibility = 10
+		naval_speed = 32
+		reliability = 0.80
+
+		naval_range = 1600
+		
+		max_strength = 35
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1250
+		resources = {
+			oil = 1
+			steel = 2
+		}		
+		manpower = 300
+	}
+	
+	heavy_destroyer_2 = {
+		year = 1926
+
+		archetype = heavy_destroyer
+		parent = heavy_destroyer_1
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 2
+		attack = 3
+		fire_range = 14
+		torpedo_attack = 2.5
+		sub_attack = 11
+		
+		anti_air_attack = 2.5
+		
+		armor_value = 0
+		evasion = 68
+		
+		surface_detection = 20
+		sub_detection = 50
+		surface_visibility = 10
+		naval_speed = 34
+		reliability = 0.82
+
+		naval_range = 1700
+		
+		max_strength = 45
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1290
+		resources = {
+			oil = 1
+			steel = 2
+		}		
+		manpower = 325
+	}
+
+	heavy_destroyer_3 = {
+		year = 1933
+
+		archetype = heavy_destroyer
+		parent = heavy_destroyer_2
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 2.5
+		attack = 4
+		fire_range = 15
+		torpedo_attack = 3.33
+		sub_attack = 12
+		
+		anti_air_attack = 3
+		
+		armor_value = 0
+		evasion = 71
+		
+		surface_detection = 25
+		sub_detection = 55
+		surface_visibility = 10
+		naval_speed = 35
+		reliability = 0.82
+
+		naval_range = 2000
+		
+		max_strength = 55
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1330
+		resources = {
+			oil = 1
+			steel = 2
+		}		
+		manpower = 350
+	}
+
+	heavy_destroyer_4 = {
+		year = 1936
+
+		archetype = heavy_destroyer
+		parent = heavy_destroyer_3
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 2.5
+		attack = 4
+		fire_range = 15
+		torpedo_attack = 3.57
+		sub_attack = 12.5
+		
+		anti_air_attack = 4
+		
+		armor_value = 0
+		evasion = 75
+		
+		surface_detection = 25
+		sub_detection = 60
+		surface_visibility = 10
+		naval_speed = 35
+		reliability = 0.85
+
+		naval_range = 2000
+		
+		max_strength = 55
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1390
+		resources = {
+			oil = 1
+			steel = 3
+		}		
+		manpower = 400
+	}
+	
+	heavy_destroyer_5 = {
+		year = 1938
+
+		archetype = heavy_destroyer
+		parent = heavy_destroyer_4
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		ap_attack = 3.5
+		attack = 5.5
+		fire_range = 16
+		torpedo_attack = 3.57
+		sub_attack = 12.5
+		
+		anti_air_attack = 5
+		
+		armor_value = 0
+		evasion = 80
+		
+		surface_detection = 30
+		sub_detection = 63.64
+		surface_visibility = 10
+		naval_speed = 36
+		reliability = 0.87
+
+		naval_range = 2200
+		
+		max_strength = 60
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1450
+		resources = {
+			oil = 1
+			steel = 3
+		}		
+		manpower = 450
+	}
+
+	heavy_destroyer_6 = {
+		year = 1941
+
+		archetype = heavy_destroyer
+		parent = heavy_destroyer_5
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 4
+		attack = 6
+		fire_range = 16
+		torpedo_attack = 4.29
+		sub_attack = 12.5
+		
+		anti_air_attack = 6
+		
+		armor_value = 0
+		evasion = 85
+		
+		surface_detection = 32.14
+		sub_detection = 65.63
+		surface_visibility = 10
+		naval_speed = 37
+		reliability = 0.90
+
+		naval_range = 2200
+		
+		max_strength = 75
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1510
+		resources = {
+			oil = 2
+			steel = 3
+		}
+		manpower = 500
+	}
+	
+	heavy_destroyer_7 = {
+		year = 1941
+
+		archetype = heavy_destroyer
+		parent = heavy_destroyer_6
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 4.5
+		attack = 7
+		fire_range = 17
+		torpedo_attack = 4.38
+		sub_attack = 12.5
+		
+		anti_air_attack = 7
+		
+		armor_value = 0
+		evasion = 90
+		
+		surface_detection = 33.33
+		sub_detection = 66.67
+		surface_visibility = 10
+		naval_speed = 37
+		reliability = 0.92
+
+		naval_range = 2600
+		
+		max_strength = 85
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 1680
+		resources = {
+			oil = 2
+			steel = 4
+			chromium = 1
+		}		
+		manpower = 600
+	}
+}
