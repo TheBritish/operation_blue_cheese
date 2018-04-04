@@ -21,7 +21,6 @@ state={
 			}
 		}
 		add_core_of = SE4
-		add_core_of = CAN
 	}
 
 	provinces={
